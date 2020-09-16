@@ -1,0 +1,340 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    max-width:1399px;
+    margin: auto;
+    background:#fff;
+}
+h1{
+    color: black;
+    font-size: 3.5rem;
+    line-height: 55px;
+    margin-top: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+h2{
+     font-family: 'Quicksand', sans-serif;
+    font-size: 2.5rem;
+}
+p{
+   font-family: 'Roboto',sans-serif;
+    color: rgba(0,0,0,.6);
+    font-size: 14px;
+    letter-spacing: 0.05em
+}
+h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+
+.navbar{
+    padding-top: 16px;
+  font-family: 'Roboto', sans-serif;
+font-size: .9rem;
+}
+.navbar-light .navbar-brand {
+    color: #2196f3;
+    font-family: 'Lobster', cursive;
+    font-size: 26px;
+    
+}
+.logo{
+    color: white;
+    border-radius: 50px;
+    padding: 4px;
+    background-color: #2196f3;
+    
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 0.89rem;
+}
+
+header{
+    
+}
+.main{
+ 
+    padding-bottom: 50px;
+}
+.main img{
+    padding-top: 60px;
+    height: 460px;
+     padding-right: 20px;;
+   
+}
+.main .con1{
+    padding-top: 60px;
+     padding-left: 10%;
+    padding-right: 10%;
+   
+}
+.con1 h6{
+    color: rgba(0,0,0,.7);
+    font-size: 1rem;
+    letter-spacing: .05rem;
+}
+.con1 p{
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.con1 .btn-lg{
+background-image: radial-gradient( circle 465px at -15.1% -25%,  rgba(17,130,193,1) 0%, rgba(67,166,238,1) 49%, rgba(126,203,244,1) 90.2% );
+    color: white;
+     font-family: 'Quicksand', sans-serif;
+    font-size: .9rem;
+    padding: 11px 40px;
+    border-radius: 60px;
+    letter-spacing: .1rem;
+}
+.button {
+  text-align: center;
+  transition: all 0.5s;
+    background-image: radial-gradient( circle 465px at -15.1% -25%,  rgba(17,130,193,1) 0%, rgba(67,166,238,1) 49%, rgba(126,203,244,1) 90.2% );
+    color: white;
+     font-family: 'Quicksand', sans-serif;
+    font-size: .8rem;
+    padding: 11px 40px;
+    border-radius: 60px;
+    letter-spacing: .1rem;
+    width: 235px;
+    border: none;
+}
+
+.button span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*main page media*/
+@media only screen and (max-width:770px){
+    .main img{
+/*
+        width: 100%;
+        height: 100%;
+           padding-top: 0;
+     padding-right: 0;
+        margin-top: 50px;
+*/
+        display: none;
+    }
+}
+
+
+
+.project{
+    padding: 50px 150px;
+    margin: 0 auto;
+    background-color: #f2f2f8;
+}
+.project h1{
+    font-size: 2rem;
+    margin: 0 auto;
+    color: #AFA4A4;
+    margin-bottom: 50px;
+}
+.project1img{
+      margin-bottom: 0px;
+}
+.project1img img{
+    width: 100%;
+     transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.hovergym{
+     transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*hover shadow for projects*/
+.project1img:hover .shadow-sm{
+    box-shadow: 0 .295rem .75rem rgba(0,0,0,.075)!important;
+
+}.project2:hover .shadow-sm{
+    box-shadow: 0 .295rem .75rem rgba(0,0,0,.075)!important;
+
+}.project3:hover .shadow-sm{
+    box-shadow: 0 .295rem .75rem rgba(0,0,0,.075)!important;
+/*end hover shadow*/
+}
+.project1img:hover img{
+    opacity: 0.3;
+}
+.project1img:hover .hovergym{
+    opacity: 1;
+}
+
+
+.project2 img{
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.hoverbook{
+     transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.project2:hover img{
+    opacity: 0.2;
+}
+.project2:hover .hoverbook{
+    opacity: 1;
+}
+.project3 img{
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+  backface-visibility: hidden;
+}
+.hovertravel{
+     transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.project3:hover img{
+    opacity: 0.3;
+}
+.project3:hover .hovertravel{
+    opacity: 1;
+}
+@media only screen and (max-width:600px){
+    .project{
+    padding:0;
+    margin: 0 auto;
+    background-color: #efefef;
+        padding-top: 50px;
+}
+    .project3{
+        margin-top: 30px;
+    }   
+}
+/*project media end her*/
+/*skil bar strt here*/
+.skillcon{
+    padding:80px 80px;
+    background-color:#131313;
+    color: #F5F5F7;
+    max-width: 1399px;
+    margin: 0 auto;
+    
+}
+.skillcon h2{
+    font-size: 3.5rem;
+}
+.skillcon p{
+    padding-right: 120px;
+    color: white;
+}
+.skillconbar{
+    padding-left: 60px;
+}
+.skill {
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    display: inline-block;
+}
+
+.skill-bar {
+    height: 5px;
+    background-color: #6A6A6A;
+    transform: scaleX(0);
+	  transition: all 2s ease-in-out;
+    transform-origin: 0% 50%;
+}
+
+.skill-bar-full {  
+   transform: scaleX(1);
+}
+/*skill end here*/
+/*skill media start here*/
+@media only screen and (max-width:600px){
+        .skillcon{
+            text-align: center;
+    padding:50px 10px;
+    
+}
+.skillcon h2{
+    font-size: 3rem;
+}
+.skillcon p{
+    padding-right: 0px;
+    margin-bottom: 40px;
+}
+.skillconbar{
+    padding-left: 0px;
+}
+.bare{
+        list-style-type: none;
+    padding-left: 16px;
+    }
+
+
+.skill-bar {
+    height: 5px;
+    background-color: #6A6A6A;
+    transform: scaleX(0);
+	  transition: all 2s ease-in-out;
+    transform-origin: 0% 50%;
+}
+
+.skill-bar-full {  
+   transform: scaleX(1);
+}
+}
+/*contact start here*/
+.contactdiv .row h2{
+  font-size: 2rem;
+    margin: 0 auto;
+    color: #AFA4A4;
+    margin-bottom: 50px;
+    margin: 70px auto;
+    margin-bottom: 20px;
+    
+}
+.contacticons{
+    font-size: 1.4rem;
+    width: 50%;
+    text-align: center;
+    margin: 50px auto;
+      color: rgba(0,0,0,.7)
+}
